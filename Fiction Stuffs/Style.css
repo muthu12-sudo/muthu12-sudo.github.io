@@ -1,0 +1,184 @@
+body {
+    background: url('bg5.jpg') rgba(255, 255, 255, 0.8);
+    background-position: center;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+.logo {
+    background-image: url(ex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 8px ridge #317874;
+    border-radius: 10px;
+    -webkit-text-stroke: 2.8px black;
+    text-shadow: 3px 3px black;
+    font-family: Helvetica;
+    color: white;
+    padding: 3.5%;
+    background-position: 100%;
+    font-size: 42px;
+    height: 55px;
+    transition: all .4s ease-in-out;
+}
+
+.logo:hover {
+    background: url(bg2.gif) repeat-x;
+    background-size: auto 170%;
+    background-position: center;
+    border: 8px ridge #FBBAF8;
+    font-size: 0;
+}
+
+.w-box {
+    text-align: center;
+    font-family: serif;
+    color: #101820FF;
+    background-color: rgba(254, 231, 21, 0.8);
+    margin: 0 10% 0 10%;
+    font-size: 28px;
+    border-radius: 10px 40px;
+    padding: 3px;
+    transition: all .2s ease-in-out;
+}
+
+.w-box:hover {
+    color: #FEE715FF;
+    background-color: rgba(16, 24, 32, 0.8);
+}
+
+.heart {
+    animation: blinker 2s infinite;
+    font-size: 52px;
+    font-family: arial;
+    -webkit-animation: blinker 2s infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.menu {
+    display: ruby;
+    padding: 0px;
+}
+
+.menu table {
+    position: relative;
+    width: 100%;
+}
+
+.menu button {
+    width: 100%;
+    background-color: rgba(50, 125, 239, 0.7);
+    border: 5px groove #765285;
+    border-radius: 25px 0px;
+    font-size: 28px;
+    -webkit-text-stroke: 1px black;
+    font-family: monospace;
+    padding: 3px;
+    line-height: 70px;
+    align-items: center;
+    color: #C6FAD6;
+}
+
+.menu button:hover {
+    background-color: rgba(168, 229, 187, 0.8);
+    transition: all .2s ease-in-out;
+    color: rgba(50, 125, 239, 0.7);
+    border: 5px groove rgba(50, 125, 239, 0.7);
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dp {
+    border-radius: 10px;
+    width: 800px;
+}
+
+.images h1 {
+    font-family: 'serif';
+    line-height: 50px;
+    color: #FE6F27;
+    -webkit-text-stroke: #E3180A 1px;
+    text-shadow: 1px 1px grey;
+}
+
+p {
+    font-family: 'Roboto';
+    line-height: 16.8px;
+    font-size: 26px;
+    text-shadow: 1px 1px black;
+    vertical-align: baseline;
+    letter-spacing: 0.5px;
+    word-spacing: 0px;
+    font-weight: 400px;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+
+/*Other Documents*/
+
+.con {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: #765285 groove 3px;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 20px;
+    padding: 18px;
+    transition: all .2s ease-in-out;
+}
+
+.con:hover {
+    background-color: #A8E5BB;
+    border: #765285 groove 3px;
+    color: #FE6F27;
+}
+
+.con p {
+    margin-left: 40%;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    color: black;
+    word-spacing: 1px;
+    letter-spacing: 1.5px;
+}
+
+.con h3 {
+    margin-right: 35%;
+    -webkit-text-stroke: 1px black;
+    font-size: 38px;
+    line-height: 10px;
+    font-family: 'Times New Roman';
+    color: honeydew;
+}
+
+.conimg {
+    float: left;
+    margin-left: 2%;
+    transition: all .2s ease-in-out;
+}
+
+.con:hover img {
+    width: 310px;
+    height: 260px;
+}
+
+.con a {
+    float: right;
+    line-height: 3px;
+}
+
+.con object {
+    margin: 0 1% 0 1%;
+}
