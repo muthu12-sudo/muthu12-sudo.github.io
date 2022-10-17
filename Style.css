@@ -41,40 +41,34 @@ body {
     border-radius: 10px 40px;
     padding: 3px;
     transition: all .2s ease-in-out;
-    element {
-	font-size: 25px;
-	line-height: 0.7;
-}
+    font-size: 28px;
 }
 
+
+}
 .w-box:hover {
     color: #FEE715FF;
     background-color: rgba(16, 24, 32, 0.8);
 }
-
 .heart {
     animation: blinker 2s infinite;
     font-size: 52px;
     font-family: arial;
     -webkit-animation: blinker 2s infinite;
 }
-
 @keyframes blinker {
     50% {
         opacity: 0;
     }
 }
-
 .menu {
     display: ruby;
     padding: 0px;
 }
-
 .menu table {
     position: relative;
     width: 100%;
 }
-
 .menu button {
     width: 100%;
     background-color: rgba(50, 125, 239, 0.7);
@@ -88,24 +82,20 @@ body {
     align-items: center;
     color: #C6FAD6;
 }
-
 .menu button:hover {
     background-color: rgba(168, 229, 187, 0.8);
     transition: all .2s ease-in-out;
     color: rgba(50, 125, 239, 0.7);
     border: 5px groove rgba(50, 125, 239, 0.7);
 }
-
 .menu a {
     text-decoration: none;
     font-size: 18px;
 }
-
 .dp {
     border-radius: 10px;
     width: 800px;
 }
-
 .images h1 {
     font-family: 'serif';
     line-height: 50px;
@@ -113,7 +103,6 @@ body {
     -webkit-text-stroke: #E3180A 1px;
     text-shadow: 1px 1px grey;
 }
-
 p {
     font-family: 'Roboto';
     line-height: 16.8px;
@@ -127,9 +116,7 @@ p {
     color: whitesmoke;
 }
 
-
 /*Other Documents*/
-
 .con {
     background-color: rgba(255, 255, 255, 0.8);
     border: #765285 groove 3px;
@@ -139,13 +126,11 @@ p {
     padding: 18px;
     transition: all .2s ease-in-out;
 }
-
 .con:hover {
     background-color: #A8E5BB;
     border: #765285 groove 3px;
     color: #FE6F27;
 }
-
 .con p {
     margin-left: 40%;
     line-height: 30px;
@@ -156,7 +141,6 @@ p {
     word-spacing: 1px;
     letter-spacing: 1.5px;
 }
-
 .con h3 {
     margin-right: 35%;
     -webkit-text-stroke: 1px black;
@@ -165,23 +149,19 @@ p {
     font-family: 'Times New Roman';
     color: honeydew;
 }
-
 .conimg {
     float: left;
     margin-left: 2%;
     transition: all .2s ease-in-out;
 }
-
 .con:hover img {
     width: 310px;
     height: 260px;
 }
-
 .con a {
     float: right;
     line-height: 3px;
 }
-
 .con object {
     margin: 0 1% 0 1%;
 }
