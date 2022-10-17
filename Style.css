@@ -38,10 +38,13 @@ body {
     color: #101820FF;
     background-color: rgba(254, 231, 21, 0.8);
     margin: 0 10% 0 10%;
-    font-size: 28px;
     border-radius: 10px 40px;
     padding: 3px;
     transition: all .2s ease-in-out;
+    element {
+	font-size: 25px;
+	line-height: 0.7;
+}
 }
 
 .w-box:hover {
