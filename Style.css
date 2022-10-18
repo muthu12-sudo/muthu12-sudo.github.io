@@ -193,3 +193,17 @@ p {
     width: 100%;
     height: 250px;
 }
+
+details[open] summary~* {
+    animation: sweep .6s ease-in-out;
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 10%;
+        margin-top: 0px
+    }
+    100% {
+        opacity: 100%;
+    }
+}
