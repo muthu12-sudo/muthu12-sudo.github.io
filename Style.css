@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-attachment: fixed;
+    overflow: auto;
 }
 
 .logo {
@@ -128,48 +129,52 @@ p {
 
 .con {
     background-color: rgba(255, 255, 255, 0.8);
-    border: #765285 groove 3px;
-    margin: 10px;
+    border: #765285 groove 6px;
+    margin: auto;
     border-radius: 20px;
     padding: 18px;
+    width: 750px;
     transition: all .2s ease-in-out;
-    height: auto;
+    height: 30%;
     block-size: auto;
+    flex-grow: 3;
 }
 
 .con:hover {
     background-color: #A8E5BB;
-    border: #765285 groove 3px;
-    color: #FE6F27;
 }
 
 .con p {
     display: flex;
     justify-content: center;
-    line-height: 30px;
-    font-size: 18px;
-    font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     word-spacing: 1px;
     letter-spacing: 1.5px;
+    text-shadow: 1px 1px white;
 }
 
 .con h3 {
     display: flex;
     justify-content: center;
     -webkit-text-stroke: 1px black;
-    font-size: 38px;
+    font-size: 40px;
     line-height: 10px;
-    font-family: serif, 'Times New Roman', Times;
+    text-transform: uppercase;
+    text-shadow: 1px 3px black;
+    letter-spacing: 1.5px;
+    font-family: Helvetica, sans-serif, Arial;
     color: honeydew;
+    font-weight: bolder;
 }
 
 .conimg {
-    float: left;
     display: flex;
     justify-content: left;
-    margin-left: 5%;
+    margin: auto;
     position: relative;
     width: 300px;
     height: 250px;
